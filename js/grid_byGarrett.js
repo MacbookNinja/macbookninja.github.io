@@ -785,7 +785,7 @@ const girdJsStyles = i$3`
 `;
 const styles = [baseStyle, girdJsStyles];
 
-let NintexSamplegridRepeatingSection = _decorate([e$2('grid-withsorting')], function (_initialize, _LitElement) {
+let NintexSamplegridRepeatingSection = _decorate([e$2('grid-byGarrett')], function (_initialize, _LitElement) {
   class NintexSamplegridRepeatingSection extends _LitElement {
     constructor(...args) {
       super(...args);
