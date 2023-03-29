@@ -785,7 +785,7 @@ const girdJsStyles = i$3`
 `;
 const styles = [baseStyle, girdJsStyles];
 
-let NintexSamplegridRepeatingSection = _decorate([e$2('grid-byGarrett')], function (_initialize, _LitElement) {
+let NintexSamplegridRepeatingSection = _decorate([e$2('grid-by-garrett')], function (_initialize, _LitElement) {
   class NintexSamplegridRepeatingSection extends _LitElement {
     constructor(...args) {
       super(...args);
@@ -881,7 +881,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-byGarrett')], functi
       function getMetaConfig() {
         // plugin contract information
         return {
-          controlName: 'grid-byGarrett',
+          controlName: 'grid-by-garrett',
           description: 'Modified Grid',
           groupName: 'Garrett Custom Plugins',
           iconUrl: 'one-line-text',
