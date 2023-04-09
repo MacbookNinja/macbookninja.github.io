@@ -634,6 +634,10 @@ const girdJsStyles = i$3`
   }
   td.gridjs-td:first-child {
     border-left: none;
+	  width: 10%;
+  }
+  td.gridjs-td:second-child {
+	  width: 10%;
   }
   td.gridjs-td:last-child {
     border-right: none;
