@@ -697,7 +697,7 @@ const girdJsStyles = i$3`
   .gridjs-tr {
     border: none;
   }
-  .gridjs-tr:hover {
+  .gridjs-tr:hover td.gridjs-td {
     border: none;
 	background-color: coral; 
 	color: white;
