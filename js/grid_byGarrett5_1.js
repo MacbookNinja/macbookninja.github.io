@@ -697,7 +697,7 @@ const girdJsStyles = i$3`
   .gridjs-tr {
     border: none;
   }
-  .gridjs-tr:hover td.gridjs-td {
+  .gridjs-tr:hover  td.gridjs-td {
     border: none;
 	background-color: coral; 
 	color: white;
@@ -794,7 +794,7 @@ const girdJsStyles = i$3`
 `;
 const styles = [baseStyle, girdJsStyles];
 
-let GarrettActivityLog = _decorate([e$2('grid-activitylog5_1')], function (_initialize, _LitElement) {
+let GarrettActivityLog = _decorate([e$2('grid-activitylog5-1')], function (_initialize, _LitElement) {
   class GarrettActivityLog extends _LitElement {
     constructor(...args) {
       super(...args);
@@ -885,7 +885,7 @@ let GarrettActivityLog = _decorate([e$2('grid-activitylog5_1')], function (_init
       function getMetaConfig() {
         // plugin contract information
         return {
-          controlName: 'grid-activitylog5_1',
+          controlName: 'grid-activitylog5-1',
           description: 'Activity Log by Garrett',
           groupName: 'Plugins by Garrett',
           iconUrl: 'one-line-text',
