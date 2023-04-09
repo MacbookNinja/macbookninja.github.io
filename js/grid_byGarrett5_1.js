@@ -694,6 +694,11 @@ const girdJsStyles = i$3`
   .gridjs-tr {
     border: none;
   }
+  .gridjs-tr:hover {
+    border: none;
+    background-color: coral; 
+    font-size: 120%; 
+  }
   .gridjs-tr-selected td {
     background-color: #ebf5ff;
   }
