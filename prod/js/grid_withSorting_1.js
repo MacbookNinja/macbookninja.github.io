@@ -879,8 +879,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog')], func
         return {
           controlName: 'grid-activitylog',
           description: 'Data Grid for Activity Log by Garrett Fernandez',
-          /* GF Modifications */
-		  groupName: 'Plugins by Garrett',
+	  groupName: 'Plugins by Garrett',
           iconUrl: 'one-line-text',
           fallbackDisableSubmit: false,
           version: '1.2',
