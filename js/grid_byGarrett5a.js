@@ -785,7 +785,7 @@ const girdJsStyles = i$3`
 `;
 const styles = [baseStyle, girdJsStyles];
 
-let GarrettActivityLog = _decorate([e$2('grid-activitylog5')], function (_initialize, _LitElement) {
+let GarrettActivityLog = _decorate([e$2('grid-activitylog5a')], function (_initialize, _LitElement) {
   class GarrettActivityLog extends _LitElement {
     constructor(...args) {
       super(...args);
