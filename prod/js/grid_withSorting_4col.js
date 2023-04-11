@@ -628,7 +628,7 @@ const girdJsStyles = i$3`
 
   td.gridjs-td {
     border: 1px solid #e5e7eb;
-    padding: 12px 24px;
+    padding: 6px 12px;
     background-color: #fff;
     box-sizing: content-box;
   }
