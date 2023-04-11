@@ -415,6 +415,7 @@ const e$2=e=>n=>"function"==typeof n?((e,n)=>(customElements.define(e,n),n))(e,n
  * @license
  * Copyright 2017 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
+ * SPDX-License-Identifier: BSD-3-Clause
  */
 const i$1=(i,e)=>"method"===e.kind&&e.descriptor&&!("value"in e.descriptor)?{...e,finisher(n){n.createProperty(e.key,i);}}:{kind:"field",key:Symbol(),placement:"own",descriptor:{},originalKey:e.key,initializer(){"function"==typeof e.initializer&&(this[e.key]=e.initializer.call(this));},finisher(n){n.createProperty(e.key,i);}};function e$1(e){return (n,t)=>void 0!==t?((i,e,n)=>{e.constructor.createProperty(n,i);})(e,n,t):i$1(e,n)}
 
@@ -629,6 +630,7 @@ const girdJsStyles = i$3`
   td.gridjs-td {
     border: 1px solid #e5e7eb;
     padding: 5px 10px;
+	font-size: 12px;
     background-color: #fff;
     box-sizing: content-box;
   }
@@ -944,7 +946,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
             pagination: this.pagination,
             limit:20
           },
-          search: true,
+          search: false,
           sort: this.sortable
         });
         this.grid.render(this.shadowRoot?.getElementById('js-canvas'));
@@ -973,7 +975,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
               pagination: this.pagination,
               limit:20
             },
-            search: true,
+            search: false,
             data: JSON.parse(this.Data)
           });
           this.grid.forceRender();
