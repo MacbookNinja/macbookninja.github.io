@@ -501,7 +501,7 @@ const girdJsStyles = i$3`
     border: 1px solid #d2d6dc;
     border-radius: 5px;
     padding: 10px 13px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.45;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -628,7 +628,7 @@ const girdJsStyles = i$3`
 
   td.gridjs-td {
     border: 1px solid #e5e7eb;
-    padding: 6px 12px;
+    padding: 12px 24px;
     background-color: #fff;
     box-sizing: content-box;
   }
@@ -637,6 +637,9 @@ const girdJsStyles = i$3`
   }
   td.gridjs-td:last-child {
     border-right: none;
+  }
+  td.gridjs-td:nth-child(even) {
+    background-color: #f5f5f5;
   }
   td.gridjs-message {
     text-align: center;
@@ -698,7 +701,7 @@ const girdJsStyles = i$3`
     border: none;
 	background-color: coral; 
 	color: white;
-	font-size: 120%; 
+	font-size: 100%; 
   }
   .gridjs-tr-selected td {
     background-color: #ebf5ff;
