@@ -628,7 +628,7 @@ const girdJsStyles = i$3`
 
   td.gridjs-td {
     border: 1px solid #e5e7eb;
-    padding: 12px 24px;
+    padding: 5px 10px;
     background-color: #fff;
     box-sizing: content-box;
   }
@@ -637,9 +637,6 @@ const girdJsStyles = i$3`
   }
   td.gridjs-td:last-child {
     border-right: none;
-  }
-  td.gridjs-td:nth-child(even) {
-    background-color: #f5f5f5;
   }
   td.gridjs-message {
     text-align: center;
@@ -693,9 +690,11 @@ const girdJsStyles = i$3`
   th.gridjs-th:last-child {
     border-right: none;
   }
-
   .gridjs-tr {
     border: none;
+  }
+  .gridjs-tr:nth-child(even) {
+    background-color: #f5f5f5;
   }
   .gridjs-tr:hover  td.gridjs-td {
     border: none;
