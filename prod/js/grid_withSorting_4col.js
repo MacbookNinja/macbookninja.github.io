@@ -942,10 +942,9 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
             name: this.Col4
           }],
           data: JSON.parse(this.Data),
-          pagination: {
-            pagination: this.pagination,
+          pagination: this.pagination ? {
             limit:20
-          },
+          } : undefined,
           search: false,
           sort: this.sortable
         });
@@ -971,10 +970,9 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
               name: this.Col4
             }],
             sort: this.sortable,
-            pagination: {
-              pagination: this.pagination,
-              limit:20
-            },
+            pagination: this.pagination ? {
+            limit:20
+          } : undefined,
             search: false,
             data: JSON.parse(this.Data)
           });
