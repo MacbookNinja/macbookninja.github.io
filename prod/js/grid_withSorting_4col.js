@@ -946,7 +946,8 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
             limit:20
           } : undefined,
           search: false,
-          sort: this.sortable
+          sort: this.sortable,
+          resizable: true,
         });
         this.grid.render(this.shadowRoot?.getElementById('js-canvas'));
       }
@@ -974,6 +975,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
             limit:20
           } : undefined,
             search: false,
+            resizable: true,
             data: JSON.parse(this.Data)
           });
           this.grid.forceRender();
