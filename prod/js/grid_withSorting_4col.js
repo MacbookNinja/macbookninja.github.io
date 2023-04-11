@@ -898,6 +898,11 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
               title: 'Allow Pagination',
               description: 'Select true to allow pagination'
             },
+            resizable: {
+              type: 'boolean',
+              title: 'Allow Column Resizing',
+              description: 'Select true to allow column resizing'
+            },
             Data: {
               type: 'string',
               title: 'Data to be rendered in the grid',
@@ -947,7 +952,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
           } : undefined,
           search: false,
           sort: this.sortable,
-          resizable: true,
+          resizable: this.resizable,
         });
         this.grid.render(this.shadowRoot?.getElementById('js-canvas'));
       }
@@ -975,7 +980,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
             limit:20
           } : undefined,
             search: false,
-            resizable: true,
+            resizable: this.resizable,
             data: JSON.parse(this.Data)
           });
           this.grid.forceRender();
