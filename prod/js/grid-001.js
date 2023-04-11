@@ -358,7 +358,7 @@ th.gridjs-th:last-child {
 //Customised to enable features
 
 
-const styles = [baseStyle, girdJsStyles];
+//const styles = [baseStyle, girdJsStyles];
 
 let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-test')], function (_initialize, _LitElement) {
   class NintexSamplegridRepeatingSection extends _LitElement {
