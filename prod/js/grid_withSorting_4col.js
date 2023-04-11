@@ -935,6 +935,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
             name: this.Col4
           }],
           data: JSON.parse(this.Data),
+		  pagination: true,
           sort: this.sortable
         });
         this.grid.render(this.shadowRoot?.getElementById('js-canvas'));
@@ -959,6 +960,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
               name: this.Col4
             }],
             sort: this.sortable,
+			pagination: true,
             data: JSON.parse(this.Data)
           });
           this.grid.forceRender();
