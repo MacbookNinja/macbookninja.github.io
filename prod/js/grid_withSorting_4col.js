@@ -895,7 +895,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
               type: 'boolean',
               title: 'Allow Pagination',
               description: 'Select true to allow Pagination'
-            }
+            },
             Data: {
               type: 'string',
               title: 'Data to be rendered in the grid',
