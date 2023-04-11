@@ -693,7 +693,7 @@ const girdJsStyles = i$3`
   .gridjs-tr {
     border: none;
   }
-  .gridjs-tr:nth-child(even) {
+  tr.gridjs-tr:nth-child(even) {
     background-color: #f5f5f5;
   }
   .gridjs-tr:hover  td.gridjs-td {
@@ -891,6 +891,11 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
               title: 'Allow Sorting',
               description: 'Select true to allow sorting'
             },
+			pagination: {
+              type: 'boolean',
+              title: 'Allow Pagination',
+              description: 'Select true to allow Pagination'
+            }
             Data: {
               type: 'string',
               title: 'Data to be rendered in the grid',
@@ -935,7 +940,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
             name: this.Col4
           }],
           data: JSON.parse(this.Data),
-		  pagination: true,
+		  pagination: this.pagination,
           sort: this.sortable
         });
         this.grid.render(this.shadowRoot?.getElementById('js-canvas'));
@@ -960,7 +965,7 @@ let NintexSamplegridRepeatingSection = _decorate([e$2('grid-activitylog-4col')],
               name: this.Col4
             }],
             sort: this.sortable,
-			pagination: true,
+			pagination: this.pagination,
             data: JSON.parse(this.Data)
           });
           this.grid.forceRender();
